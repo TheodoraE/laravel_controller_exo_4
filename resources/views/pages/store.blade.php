@@ -16,7 +16,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav mx-auto">
-                <li class="nav-item active px-lg-4">
+                <li class="nav-item px-lg-4">
                     <a class="nav-link text-uppercase text-expanded" href="{{route('hom')}}">Home
                     <span class="sr-only">(current)</span>
                     </a>
@@ -27,7 +27,7 @@
                 <li class="nav-item px-lg-4">
                     <a class="nav-link text-uppercase text-expanded" href="{{route('produ')}}">Products</a>
                 </li>
-                <li class="nav-item px-lg-4">
+                <li class="nav-item active px-lg-4">
                     <a class="nav-link text-uppercase text-expanded" href="{{route('sto')}}">Store</a>
                 </li>
                 </ul>
@@ -35,6 +35,7 @@
             </div>
         </nav>
     </header>
-    @include('components.home1')
-    @include('components.home2')
+    
+    @include('components.store1')
+    @include('components.store2')
 @endsection
