@@ -6,11 +6,11 @@
           <div class="col-xl-9 col-lg-10 mx-auto">
             <div class="bg-faded rounded p-5">
               <h2 class="section-heading mb-4">
-                <span class="section-heading-upper">{{$abou[0]->titre1}}</span>
-                <span class="section-heading-lower">{{$abou[0]->titre2}}</span>
+                <span class="section-heading-upper">{{$aboutData[0]->titre1}}</span>
+                <span class="section-heading-lower">{{$aboutData[0]->titre2}}</span>
               </h2>
-              <p>{{$abou[0]->para1}}</p>
-              <p class="mb-0">{{$abou[0]->para2}}</p>
+              <p>{{$aboutData[0]->para1}}</p>
+              <p class="mb-0">{{$aboutData[0]->para2}}</p>
             </div>
           </div>
         </div>
